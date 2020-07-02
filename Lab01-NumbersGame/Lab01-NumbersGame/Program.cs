@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 
 namespace Lab01_NumbersGame
 {
@@ -12,7 +13,10 @@ namespace Lab01_NumbersGame
 
         public static void MyMethod()
         {
-            Console.WriteLine("This is super duper cool!");
+            Console.WriteLine("What is your name?");
+            string name = Console.ReadLine(); ;
+            Console.WriteLine($"Hello {name}");
+            
         }
     }
 }
