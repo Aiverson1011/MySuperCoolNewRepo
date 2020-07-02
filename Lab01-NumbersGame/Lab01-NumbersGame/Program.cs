@@ -13,6 +13,7 @@ namespace Lab01_NumbersGame
 
         public static void MyMethod()
         {
+            // ASk the user their name!
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine(); ;
             Console.WriteLine($"Hello {name}");
